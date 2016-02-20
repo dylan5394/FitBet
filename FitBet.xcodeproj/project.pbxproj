@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		193D9B1FF2E7618BA712928D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F9D79B7D153CE756310AD7 /* libPods.a */; };
+		61238FAD1C51D0F0001543DD /* BetsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61238FAC1C51D0F0001543DD /* BetsModel.m */; };
+		612EED2D1C6D3E740074596C /* AddContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612EED2C1C6D3E740074596C /* AddContactsViewController.m */; };
+		61A11F651C596446008CF48F /* CurrentBetsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A11F641C596446008CF48F /* CurrentBetsTableViewController.m */; };
+		61A17B9D1C50980C004B6DDE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A17B9C1C50980C004B6DDE /* LoginViewController.m */; };
+		61A17BA01C509A6B004B6DDE /* NewsFeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A17B9F1C509A6B004B6DDE /* NewsFeedTableViewController.m */; };
+		61A17BA31C509A92004B6DDE /* NewBetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A17BA21C509A92004B6DDE /* NewBetViewController.m */; };
+		61A17BA61C509CC2004B6DDE /* IndividualBetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A17BA51C509CC2004B6DDE /* IndividualBetViewController.m */; };
+		61A17BAC1C509CF5004B6DDE /* GroupsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A17BAB1C509CF5004B6DDE /* GroupsTableViewController.m */; };
+		61A1E0AA1C5827710032ED7D /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A1E0A91C5827710032ED7D /* SignupViewController.m */; };
+		61A9947C1C4CFA6100E8DD72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A9947B1C4CFA6100E8DD72 /* main.m */; };
+		61A9947F1C4CFA6100E8DD72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A9947E1C4CFA6100E8DD72 /* AppDelegate.m */; };
+		61A994851C4CFA6100E8DD72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A994831C4CFA6100E8DD72 /* Main.storyboard */; };
+		61A994871C4CFA6100E8DD72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A994861C4CFA6100E8DD72 /* Assets.xcassets */; };
+		61A9948A1C4CFA6100E8DD72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A994881C4CFA6100E8DD72 /* LaunchScreen.storyboard */; };
+		61A994951C4CFA6100E8DD72 /* FitBetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A994941C4CFA6100E8DD72 /* FitBetTests.m */; };
+		61A994A01C4CFA6100E8DD72 /* FitBetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A9949F1C4CFA6100E8DD72 /* FitBetUITests.m */; };
+		61CC68B41C55FAC300AB9CF4 /* LoginInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CC68B31C55FAC300AB9CF4 /* LoginInfoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61A994911C4CFA6100E8DD72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61A9946F1C4CFA6100E8DD72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61A994761C4CFA6100E8DD72;
+			remoteInfo = FitBet;
+		};
+		61A9949C1C4CFA6100E8DD72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61A9946F1C4CFA6100E8DD72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61A994761C4CFA6100E8DD72;
+			remoteInfo = FitBet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34F9D79B7D153CE756310AD7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE4F209CD2E36573756EDBF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		61238FAB1C51D0F0001543DD /* BetsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetsModel.h; sourceTree = "<group>"; };
+		61238FAC1C51D0F0001543DD /* BetsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetsModel.m; sourceTree = "<group>"; };
+		612EED2B1C6D3E740074596C /* AddContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactsViewController.h; sourceTree = "<group>"; };
+		612EED2C1C6D3E740074596C /* AddContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactsViewController.m; sourceTree = "<group>"; };
+		61A11F631C596446008CF48F /* CurrentBetsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentBetsTableViewController.h; sourceTree = "<group>"; };
+		61A11F641C596446008CF48F /* CurrentBetsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentBetsTableViewController.m; sourceTree = "<group>"; };
+		61A17B9B1C50980C004B6DDE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		61A17B9C1C50980C004B6DDE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		61A17B9E1C509A6B004B6DDE /* NewsFeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedTableViewController.h; sourceTree = "<group>"; };
+		61A17B9F1C509A6B004B6DDE /* NewsFeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedTableViewController.m; sourceTree = "<group>"; };
+		61A17BA11C509A92004B6DDE /* NewBetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewBetViewController.h; sourceTree = "<group>"; };
+		61A17BA21C509A92004B6DDE /* NewBetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewBetViewController.m; sourceTree = "<group>"; };
+		61A17BA41C509CC2004B6DDE /* IndividualBetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndividualBetViewController.h; sourceTree = "<group>"; };
+		61A17BA51C509CC2004B6DDE /* IndividualBetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndividualBetViewController.m; sourceTree = "<group>"; };
+		61A17BAA1C509CF5004B6DDE /* GroupsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupsTableViewController.h; sourceTree = "<group>"; };
+		61A17BAB1C509CF5004B6DDE /* GroupsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupsTableViewController.m; sourceTree = "<group>"; };
+		61A1E0A81C5827710032ED7D /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		61A1E0A91C5827710032ED7D /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		61A994771C4CFA6100E8DD72 /* FitBet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitBet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A9947B1C4CFA6100E8DD72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61A9947D1C4CFA6100E8DD72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61A9947E1C4CFA6100E8DD72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61A994841C4CFA6100E8DD72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61A994861C4CFA6100E8DD72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61A994891C4CFA6100E8DD72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61A9948B1C4CFA6100E8DD72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61A994901C4CFA6100E8DD72 /* FitBetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitBetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A994941C4CFA6100E8DD72 /* FitBetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitBetTests.m; sourceTree = "<group>"; };
+		61A994961C4CFA6100E8DD72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61A9949B1C4CFA6100E8DD72 /* FitBetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitBetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A9949F1C4CFA6100E8DD72 /* FitBetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitBetUITests.m; sourceTree = "<group>"; };
+		61A994A11C4CFA6100E8DD72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61CC68B21C55FAC300AB9CF4 /* LoginInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginInfoViewController.h; sourceTree = "<group>"; };
+		61CC68B31C55FAC300AB9CF4 /* LoginInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginInfoViewController.m; sourceTree = "<group>"; };
+		BC6A1F10E7AA0AD62FD00368 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61A994741C4CFA6100E8DD72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193D9B1FF2E7618BA712928D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A9948D1C4CFA6100E8DD72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A994981C4CFA6100E8DD72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6106D3041C6C3D0900047284 /* LoginVCs */ = {
+			isa = PBXGroup;
+			children = (
+				61A17B9B1C50980C004B6DDE /* LoginViewController.h */,
+				61A17B9C1C50980C004B6DDE /* LoginViewController.m */,
+				61CC68B21C55FAC300AB9CF4 /* LoginInfoViewController.h */,
+				61CC68B31C55FAC300AB9CF4 /* LoginInfoViewController.m */,
+				61A1E0A81C5827710032ED7D /* SignupViewController.h */,
+				61A1E0A91C5827710032ED7D /* SignupViewController.m */,
+			);
+			name = LoginVCs;
+			sourceTree = "<group>";
+		};
+		6106D3061C6C3D3300047284 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				61238FAB1C51D0F0001543DD /* BetsModel.h */,
+				61238FAC1C51D0F0001543DD /* BetsModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6106D3071C6C3D4400047284 /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				61A17BAA1C509CF5004B6DDE /* GroupsTableViewController.h */,
+				61A17BAB1C509CF5004B6DDE /* GroupsTableViewController.m */,
+				61A17B9E1C509A6B004B6DDE /* NewsFeedTableViewController.h */,
+				61A17B9F1C509A6B004B6DDE /* NewsFeedTableViewController.m */,
+				61A11F631C596446008CF48F /* CurrentBetsTableViewController.h */,
+				61A11F641C596446008CF48F /* CurrentBetsTableViewController.m */,
+			);
+			name = TableViews;
+			sourceTree = "<group>";
+		};
+		6106D3081C6C3D5B00047284 /* SingleViews */ = {
+			isa = PBXGroup;
+			children = (
+				61A17BA41C509CC2004B6DDE /* IndividualBetViewController.h */,
+				61A17BA51C509CC2004B6DDE /* IndividualBetViewController.m */,
+				61A17BA11C509A92004B6DDE /* NewBetViewController.h */,
+				61A17BA21C509A92004B6DDE /* NewBetViewController.m */,
+				612EED2B1C6D3E740074596C /* AddContactsViewController.h */,
+				612EED2C1C6D3E740074596C /* AddContactsViewController.m */,
+			);
+			name = SingleViews;
+			sourceTree = "<group>";
+		};
+		61A9946E1C4CFA6100E8DD72 = {
+			isa = PBXGroup;
+			children = (
+				61A994791C4CFA6100E8DD72 /* FitBet */,
+				61A994931C4CFA6100E8DD72 /* FitBetTests */,
+				61A9949E1C4CFA6100E8DD72 /* FitBetUITests */,
+				61A994781C4CFA6100E8DD72 /* Products */,
+				DFC52DA26BF04C4F492B17FE /* Pods */,
+				F0B87AF53EF91F3986C5D1F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61A994781C4CFA6100E8DD72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61A994771C4CFA6100E8DD72 /* FitBet.app */,
+				61A994901C4CFA6100E8DD72 /* FitBetTests.xctest */,
+				61A9949B1C4CFA6100E8DD72 /* FitBetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61A994791C4CFA6100E8DD72 /* FitBet */ = {
+			isa = PBXGroup;
+			children = (
+				6106D3081C6C3D5B00047284 /* SingleViews */,
+				6106D3071C6C3D4400047284 /* TableViews */,
+				6106D3061C6C3D3300047284 /* Models */,
+				6106D3041C6C3D0900047284 /* LoginVCs */,
+				61A994831C4CFA6100E8DD72 /* Main.storyboard */,
+				61A994881C4CFA6100E8DD72 /* LaunchScreen.storyboard */,
+				61A994861C4CFA6100E8DD72 /* Assets.xcassets */,
+				61A9947A1C4CFA6100E8DD72 /* Supporting Files */,
+			);
+			path = FitBet;
+			sourceTree = "<group>";
+		};
+		61A9947A1C4CFA6100E8DD72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61A9948B1C4CFA6100E8DD72 /* Info.plist */,
+				61A9947D1C4CFA6100E8DD72 /* AppDelegate.h */,
+				61A9947E1C4CFA6100E8DD72 /* AppDelegate.m */,
+				61A9947B1C4CFA6100E8DD72 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61A994931C4CFA6100E8DD72 /* FitBetTests */ = {
+			isa = PBXGroup;
+			children = (
+				61A994941C4CFA6100E8DD72 /* FitBetTests.m */,
+				61A994961C4CFA6100E8DD72 /* Info.plist */,
+			);
+			path = FitBetTests;
+			sourceTree = "<group>";
+		};
+		61A9949E1C4CFA6100E8DD72 /* FitBetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61A9949F1C4CFA6100E8DD72 /* FitBetUITests.m */,
+				61A994A11C4CFA6100E8DD72 /* Info.plist */,
+			);
+			path = FitBetUITests;
+			sourceTree = "<group>";
+		};
+		DFC52DA26BF04C4F492B17FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A1F10E7AA0AD62FD00368 /* Pods.debug.xcconfig */,
+				4CE4F209CD2E36573756EDBF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0B87AF53EF91F3986C5D1F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34F9D79B7D153CE756310AD7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61A994761C4CFA6100E8DD72 /* FitBet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A994A41C4CFA6100E8DD72 /* Build configuration list for PBXNativeTarget "FitBet" */;
+			buildPhases = (
+				0A1A2AD5B8A9FBA33DEFB6E9 /* Check Pods Manifest.lock */,
+				61A994731C4CFA6100E8DD72 /* Sources */,
+				61A994741C4CFA6100E8DD72 /* Frameworks */,
+				61A994751C4CFA6100E8DD72 /* Resources */,
+				1F72812D868F538C84BD4D9C /* Embed Pods Frameworks */,
+				5C4F04C5A2939666044AC0C0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitBet;
+			productName = FitBet;
+			productReference = 61A994771C4CFA6100E8DD72 /* FitBet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61A9948F1C4CFA6100E8DD72 /* FitBetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A994A71C4CFA6100E8DD72 /* Build configuration list for PBXNativeTarget "FitBetTests" */;
+			buildPhases = (
+				61A9948C1C4CFA6100E8DD72 /* Sources */,
+				61A9948D1C4CFA6100E8DD72 /* Frameworks */,
+				61A9948E1C4CFA6100E8DD72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61A994921C4CFA6100E8DD72 /* PBXTargetDependency */,
+			);
+			name = FitBetTests;
+			productName = FitBetTests;
+			productReference = 61A994901C4CFA6100E8DD72 /* FitBetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61A9949A1C4CFA6100E8DD72 /* FitBetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A994AA1C4CFA6100E8DD72 /* Build configuration list for PBXNativeTarget "FitBetUITests" */;
+			buildPhases = (
+				61A994971C4CFA6100E8DD72 /* Sources */,
+				61A994981C4CFA6100E8DD72 /* Frameworks */,
+				61A994991C4CFA6100E8DD72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61A9949D1C4CFA6100E8DD72 /* PBXTargetDependency */,
+			);
+			name = FitBetUITests;
+			productName = FitBetUITests;
+			productReference = 61A9949B1C4CFA6100E8DD72 /* FitBetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61A9946F1C4CFA6100E8DD72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dylan Davis";
+				TargetAttributes = {
+					61A994761C4CFA6100E8DD72 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7684L3883Q;
+					};
+					61A9948F1C4CFA6100E8DD72 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 61A994761C4CFA6100E8DD72;
+					};
+					61A9949A1C4CFA6100E8DD72 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 61A994761C4CFA6100E8DD72;
+					};
+				};
+			};
+			buildConfigurationList = 61A994721C4CFA6100E8DD72 /* Build configuration list for PBXProject "FitBet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61A9946E1C4CFA6100E8DD72;
+			productRefGroup = 61A994781C4CFA6100E8DD72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61A994761C4CFA6100E8DD72 /* FitBet */,
+				61A9948F1C4CFA6100E8DD72 /* FitBetTests */,
+				61A9949A1C4CFA6100E8DD72 /* FitBetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61A994751C4CFA6100E8DD72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A9948A1C4CFA6100E8DD72 /* LaunchScreen.storyboard in Resources */,
+				61A994871C4CFA6100E8DD72 /* Assets.xcassets in Resources */,
+				61A994851C4CFA6100E8DD72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A9948E1C4CFA6100E8DD72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A994991C4CFA6100E8DD72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A1A2AD5B8A9FBA33DEFB6E9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1F72812D868F538C84BD4D9C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C4F04C5A2939666044AC0C0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61A994731C4CFA6100E8DD72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61238FAD1C51D0F0001543DD /* BetsModel.m in Sources */,
+				612EED2D1C6D3E740074596C /* AddContactsViewController.m in Sources */,
+				61CC68B41C55FAC300AB9CF4 /* LoginInfoViewController.m in Sources */,
+				61A17BA01C509A6B004B6DDE /* NewsFeedTableViewController.m in Sources */,
+				61A17BA31C509A92004B6DDE /* NewBetViewController.m in Sources */,
+				61A9947F1C4CFA6100E8DD72 /* AppDelegate.m in Sources */,
+				61A9947C1C4CFA6100E8DD72 /* main.m in Sources */,
+				61A11F651C596446008CF48F /* CurrentBetsTableViewController.m in Sources */,
+				61A1E0AA1C5827710032ED7D /* SignupViewController.m in Sources */,
+				61A17BAC1C509CF5004B6DDE /* GroupsTableViewController.m in Sources */,
+				61A17B9D1C50980C004B6DDE /* LoginViewController.m in Sources */,
+				61A17BA61C509CC2004B6DDE /* IndividualBetViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A9948C1C4CFA6100E8DD72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A994951C4CFA6100E8DD72 /* FitBetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A994971C4CFA6100E8DD72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A994A01C4CFA6100E8DD72 /* FitBetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61A994921C4CFA6100E8DD72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61A994761C4CFA6100E8DD72 /* FitBet */;
+			targetProxy = 61A994911C4CFA6100E8DD72 /* PBXContainerItemProxy */;
+		};
+		61A9949D1C4CFA6100E8DD72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61A994761C4CFA6100E8DD72 /* FitBet */;
+			targetProxy = 61A9949C1C4CFA6100E8DD72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61A994831C4CFA6100E8DD72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61A994841C4CFA6100E8DD72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61A994881C4CFA6100E8DD72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61A994891C4CFA6100E8DD72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61A994A21C4CFA6100E8DD72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61A994A31C4CFA6100E8DD72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61A994A51C4CFA6100E8DD72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6A1F10E7AA0AD62FD00368 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FitBet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davis.inc.FitBet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FitBet/FitBet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61A994A61C4CFA6100E8DD72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE4F209CD2E36573756EDBF /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FitBet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davis.inc.FitBet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FitBet/FitBet-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		61A994A81C4CFA6100E8DD72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FitBetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davis.inc.FitBetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitBet.app/FitBet";
+			};
+			name = Debug;
+		};
+		61A994A91C4CFA6100E8DD72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FitBetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davis.inc.FitBetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitBet.app/FitBet";
+			};
+			name = Release;
+		};
+		61A994AB1C4CFA6100E8DD72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FitBetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davis.inc.FitBetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FitBet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		61A994AC1C4CFA6100E8DD72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FitBetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = davis.inc.FitBetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FitBet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61A994721C4CFA6100E8DD72 /* Build configuration list for PBXProject "FitBet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A994A21C4CFA6100E8DD72 /* Debug */,
+				61A994A31C4CFA6100E8DD72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61A994A41C4CFA6100E8DD72 /* Build configuration list for PBXNativeTarget "FitBet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A994A51C4CFA6100E8DD72 /* Debug */,
+				61A994A61C4CFA6100E8DD72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61A994A71C4CFA6100E8DD72 /* Build configuration list for PBXNativeTarget "FitBetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A994A81C4CFA6100E8DD72 /* Debug */,
+				61A994A91C4CFA6100E8DD72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61A994AA1C4CFA6100E8DD72 /* Build configuration list for PBXNativeTarget "FitBetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A994AB1C4CFA6100E8DD72 /* Debug */,
+				61A994AC1C4CFA6100E8DD72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61A9946F1C4CFA6100E8DD72 /* Project object */;
+}
